@@ -1,0 +1,20 @@
+#include "mbed.h"
+
+Digitalin buttn1(pc_13)
+Digitalin buttn2(pc_16)
+Digitalout led1(led_1)
+DigitalOut LED2(LED2)
+
+int main()
+{
+    while (1) {
+        if buttn1.read()==1
+       led1.write(1);
+       led2.write(0);
+        if button 2 .read()==1{
+}else{
+    led 1.write(1);
+    led2.write(0);
+}
+    }
+}
